@@ -1,0 +1,17 @@
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\bin\Debug\netcoreapp3.1\Zion Shuttle Monitor.exe
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\bin\Debug\netcoreapp3.1\Zion Shuttle Monitor.deps.json
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\bin\Debug\netcoreapp3.1\Zion Shuttle Monitor.runtimeconfig.json
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\bin\Debug\netcoreapp3.1\Zion Shuttle Monitor.runtimeconfig.dev.json
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\bin\Debug\netcoreapp3.1\Zion Shuttle Monitor.dll
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\bin\Debug\netcoreapp3.1\Zion Shuttle Monitor.pdb
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\obj\Debug\netcoreapp3.1\Zion Shuttle Monitor.csprojAssemblyReference.cache
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\obj\Debug\netcoreapp3.1\Zion_Shuttle_Monitor.Form1.resources
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\obj\Debug\netcoreapp3.1\Zion Shuttle Monitor.csproj.GenerateResource.cache
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\obj\Debug\netcoreapp3.1\Zion Shuttle Monitor.AssemblyInfoInputs.cache
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\obj\Debug\netcoreapp3.1\Zion Shuttle Monitor.AssemblyInfo.cs
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\obj\Debug\netcoreapp3.1\Zion Shuttle Monitor.csproj.CoreCompileInputs.cache
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\obj\Debug\netcoreapp3.1\Zion Shuttle Monitor.dll
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\obj\Debug\netcoreapp3.1\Zion Shuttle Monitor.pdb
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\obj\Debug\netcoreapp3.1\Zion Shuttle Monitor.genruntimeconfig.cache
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ivancheah\source\repos\Zion Shuttle Monitor\Zion Shuttle Monitor\obj\Debug\netcoreapp3.1\Zion Shuttle Monitor.csproj.CopyComplete
