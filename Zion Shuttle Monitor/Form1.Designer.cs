@@ -40,6 +40,8 @@ namespace Zion_Shuttle_Monitor
             this.label3 = new System.Windows.Forms.Label();
             this.pb_cooldown = new System.Windows.Forms.ProgressBar();
             this.tmr_cooldown = new System.Windows.Forms.Timer(this.components);
+            this.btn_clearlog = new System.Windows.Forms.Button();
+            this.chk_ignore_empty = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // dt_startDate
@@ -99,12 +101,12 @@ namespace Zion_Shuttle_Monitor
             // 
             // txt_log
             // 
-            this.txt_log.Location = new System.Drawing.Point(13, 41);
+            this.txt_log.Location = new System.Drawing.Point(13, 70);
             this.txt_log.Multiline = true;
             this.txt_log.Name = "txt_log";
             this.txt_log.ReadOnly = true;
             this.txt_log.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txt_log.Size = new System.Drawing.Size(581, 425);
+            this.txt_log.Size = new System.Drawing.Size(581, 396);
             this.txt_log.TabIndex = 6;
             // 
             // label3
@@ -129,11 +131,33 @@ namespace Zion_Shuttle_Monitor
             this.tmr_cooldown.Interval = 1000;
             this.tmr_cooldown.Tick += new System.EventHandler(this.tmr_cooldown_Tick);
             // 
+            // btn_clearlog
+            // 
+            this.btn_clearlog.Location = new System.Drawing.Point(499, 41);
+            this.btn_clearlog.Name = "btn_clearlog";
+            this.btn_clearlog.Size = new System.Drawing.Size(95, 23);
+            this.btn_clearlog.TabIndex = 9;
+            this.btn_clearlog.Text = "Clear Log";
+            this.btn_clearlog.UseVisualStyleBackColor = true;
+            this.btn_clearlog.Click += new System.EventHandler(this.btn_clearlog_Click);
+            // 
+            // chk_ignore_empty
+            // 
+            this.chk_ignore_empty.AutoSize = true;
+            this.chk_ignore_empty.Location = new System.Drawing.Point(369, 44);
+            this.chk_ignore_empty.Name = "chk_ignore_empty";
+            this.chk_ignore_empty.Size = new System.Drawing.Size(124, 19);
+            this.chk_ignore_empty.TabIndex = 10;
+            this.chk_ignore_empty.Text = "Ignore empty slots";
+            this.chk_ignore_empty.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(609, 508);
+            this.Controls.Add(this.chk_ignore_empty);
+            this.Controls.Add(this.btn_clearlog);
             this.Controls.Add(this.pb_cooldown);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txt_log);
@@ -165,6 +189,8 @@ namespace Zion_Shuttle_Monitor
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ProgressBar pb_cooldown;
         private System.Windows.Forms.Timer tmr_cooldown;
+        private System.Windows.Forms.Button btn_clearlog;
+        private System.Windows.Forms.CheckBox chk_ignore_empty;
     }
 }
 

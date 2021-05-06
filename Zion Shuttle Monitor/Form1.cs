@@ -56,7 +56,7 @@ namespace Zion_Shuttle_Monitor
                     hasSlots = true;
                 }
             }
-            if (!hasSlots)
+            if (!hasSlots && !chk_ignore_empty.Checked)
             {
                 logText("no slots found.");
             }
@@ -71,9 +71,7 @@ namespace Zion_Shuttle_Monitor
         }
         private void logText(string item)
         {
-            txt_log.Text +=  DateTime.Now.ToLongTimeString() + ": " + item + "\r\n";
-            txt_log.SelectionStart = txt_log.Text.Length;
-            txt_log.ScrollToCaret();
+            txt_log.AppendText(DateTime.Now.ToLongTimeString() + ": " + item + "\r\n");
         }
 
         private void btn_end_Click(object sender, EventArgs e)
@@ -82,6 +80,11 @@ namespace Zion_Shuttle_Monitor
             btn_start.Enabled = true;
             tmr_cooldown.Stop();
             pb_cooldown.Value = 0;
+        }
+
+        private void btn_clearlog_Click(object sender, EventArgs e)
+        {
+            txt_log.Clear();
         }
     }
 }
