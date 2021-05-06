@@ -37,7 +37,8 @@ namespace Zion_Shuttle_Monitor
             DateTime endDate = DateTime.Parse(dt_endDate.Value.ToShortDateString());
             List<DateTime> datesToCamp = Enumerable.Range(0, 1 + endDate.Subtract(startDate).Days).Select(offset => startDate.AddDays(offset)).ToList();
             WebClient client = new WebClient();
-            string urlBuilder = $"https://www.recreation.gov/api/ticket/availability/facility/{campgroundId}/monthlyAvailabilitySummaryView?year=2021&month=0{startDate.Month}&inventoryBucket=FIT";
+            var monthString = startDate.Month.ToString("00");
+            string urlBuilder = $"https://www.recreation.gov/api/ticket/availability/facility/{campgroundId}/monthlyAvailabilitySummaryView?year=2021&month={monthString}&inventoryBucket=FIT";
             string response = client.DownloadString(urlBuilder);
             dynamic drecord = JsonConvert.DeserializeObject<dynamic>(response);
             JObject campsiteRecords = drecord["facility_availability_summary_view_by_local_date"];
